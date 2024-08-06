@@ -1,7 +1,7 @@
 """Add health check  table
 
 Revision ID: da2867bc8f2e
-Revises: 1befd50cccff
+Revises: 1163127972b9
 Create Date: 2024-08-06 09:24:41.834957
 
 """
@@ -13,7 +13,7 @@ from app.libs.sql_alchemy_lib import Base
 from sqlalchemy.dialects import mysql
 # revision identifiers, used by Alembic.
 revision: str = 'da2867bc8f2e'
-down_revision: Union[str, None] = '1befd50cccff'
+down_revision: Union[str, None] = '1163127972b9'
 branch_labels: Union[str, Sequence[str], None] = None
 depends_on: Union[str, Sequence[str], None] = None
 

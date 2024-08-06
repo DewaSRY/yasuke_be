@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=E:\Revou Next - 25 Mei2024\Projects\yasuke_be\.venv
+set VIRTUAL_ENV=E:\Coding_Projects\Yakuse_BE\yasuke_be\.venv
 
 if not defined PROMPT set PROMPT=$P$G
 
